@@ -3,6 +3,8 @@
     "LOGIN_PASSWORT": "",
     "CONS_LOGIN_MANGER_TITLE": "LoginManger v. 0.0.1",
     "CONSOLE_TITLE": "MultiTool",
-    "VERSION": "0.0.1",
+    "VERSION_CONFIG": "0.0.1",
+    "VERSION_MultiTool": "0.0.1",
     "CHECK": "Check"
+    
 }
