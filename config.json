@@ -1,8 +1,8 @@
 {
-    "LOGIN_NAME": "",
-    "LOGIN_PASSWORT": "",
+    "LOGIN_NAME": "1",
+    "LOGIN_PASSWORT": "3",
     "CONS_LOGIN_MANGER_TITLE": "LoginManger v. 0.0.1",
-    "CONSOLE_TITLE": "MultiTool",
+    "CONSOLE_TITLE": "MultiiTool",
     "VERSION_CONFIG": "0.0.3",
     "VERSION_MultiTool": "0.0.3",
     "CHECK": "Check"
