@@ -6,7 +6,7 @@ config_path = os.getenv("APPDATA")
 
 MultiTool = "https://raw.githubusercontent.com/Shiggyyy/MultiTool//main/MultiTool.py"
 config = "https://raw.githubusercontent.com/Shiggyyy/MultiTool/main/config.json"
-exefile = "MultiTool"
+exefile = "MultiTool1"
 
 def update():
     downloadconfig = requests.get(config, allow_redirects=True)
