@@ -4,7 +4,7 @@ import requests
 from time import sleep
 config_path = os.getenv("APPDATA")
 
-MultiTool = "https://github.com/Shiggyyy/MultiTool/blob/main/MultiTool.exe?raw=true"
+MultiTool = "https://raw.githubusercontent.com/Shiggyyy/MultiTool//main/MultiTool.py"
 config = "https://raw.githubusercontent.com/Shiggyyy/MultiTool/main/config.json"
 exefile = "MultiTool"
 
@@ -13,7 +13,7 @@ def update():
     open("config.json", "wb").write(downloadconfig.content)
 
     downloadMultiTool = requests.get(MultiTool, allow_redirects=True)
-    open("MultiTool.exe", "wb").write(downloadMultiTool.content)
+    open("MultiTool.py", "wb").write(downloadMultiTool.content)
     installpath = os.getenv("MultiTool")
 
 
