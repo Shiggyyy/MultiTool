@@ -10,7 +10,7 @@ os_name = platform.system()
 config_path = os.getenv("APPDATA")
 download_config = "https://raw.githubusercontent.com/Shiggyyy/MultiTool/main/config.json"
 download_user = "https://raw.githubusercontent.com/Shiggyyy/MultiTool/main/user.json"
-update_file = "https://raw.githubusercontent.com/Shiggyyy/MultiTool/main/UpdateHandler.exe"
+update_file = "https://raw.githubusercontent.com/Shiggyyy/MultiTool/main/UpdateHandler.py"
 
 if os_name == "Windows":
     subprocess.check_output(f"setx MultiTool {os.getcwd()}", shell=True)
@@ -36,7 +36,7 @@ def checkforupdate():
                 print("Downlaod update path !")
                 download_update = requests.get(update_file, allow_redirects=True)
                 join_path = os.path.join(config_path)
-                open(join_path + "/MultiTool/UpdateHandler.exe", "wb").write(download_update.content)
+                open(join_path + "/MultiTool/UpdateHandler.py", "wb").write(download_update.content)
                 print("Update Downloaded !")
                 os.system("cd" + config_path + "py /MultiTool/UpdateHandler.py")
                 exit()
