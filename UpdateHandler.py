@@ -31,7 +31,7 @@ def update():
     print("[SYSTEM] Done.")
 
     old_file = os.path.join(installpath, "MultiTool.py.copy")
-    new_file = os.path.join(installpath, "MultiTool.py")
+    new_file = os.path.join(installpath, "MultiTool2.py")
     deletecopy = os.path.join(installpath, "MultiTool.py.copy")
     os.rename(old_file, new_file)
     os.remove(deletecopy)
