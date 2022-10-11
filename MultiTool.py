@@ -70,7 +70,7 @@ def setup():
     else:
         pass
 
-
+print("HHA")
 
 try:
     with open(config_path + "/MultiTool/config.json", "r") as file:
