@@ -5,6 +5,7 @@ from time import sleep
 import requests
 import platform
 
+print("HEYY")
 
 os_name = platform.system()
 config_path = os.getenv("APPDATA")
